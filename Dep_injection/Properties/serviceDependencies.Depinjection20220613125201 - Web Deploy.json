@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dep-injectiondbserver1/databases/Dep_injection_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:InventoryDatabase"
+    }
+  }
+}
